@@ -1,0 +1,9 @@
+alter the program, so that it reads a 32bit hexadecimal number, counts the number of ones, prints an output. counts the number of 0s and prints the output
+
+explain this line:for (unsigned char i = 0; i < 32; i++, x <<= 1)
+
+explain each piece seperately: i++, x <<= 1
+
+explain this condition: if (x & 0x80000000)
+
+explain the overall logic and operation of the for loop
