@@ -1,1 +1,0 @@
-how do i make this condition true if there is a zero instead of a 1?
