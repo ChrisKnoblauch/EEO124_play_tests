@@ -3,6 +3,7 @@
 //the left most bit, using bitwise &. Each iteration of the for loop shifts the bits of the
 //hexadecimal left to continue through each bit. When the & produces a 1 it increases the 
 //count of ones increases. When & does not produce 1 the count of zero increases.
+//An evaluation of the user entry would improve functionality.
 
 #include <stdio.h>
 
@@ -11,7 +12,6 @@ int main()
     unsigned int x;
     printf("Enter a 32-bit hexadecimal number: ");
     scanf("%x", &x);
-
     int ones = 0, zeros = 0;
 //(initialize i to 0; continue while i < 32; i = i+1; bits in x shift left each iteration)
     for (unsigned char i = 0; i < 32; i++, x <<= 1)
@@ -23,9 +23,7 @@ int main()
         else
             zeros++; //zeros = zeros + 1
     }
-
     printf("Number of 1s: %d\n", ones);
     printf("Number of 0s: %d\n", zeros);
-
     return 0;
 }
