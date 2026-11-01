@@ -1,4 +1,4 @@
-/*This is a code example from lecture 9 on functions,
+/*This is a code example from lecture 10 on functions,
 a custom made power function found in math.h*/
 
 double myPower(double num, int pow){
