@@ -1,4 +1,5 @@
-/*This is a code example from lecture 9 on functions*/
+/*This is a code example from lecture 9 on functions,
+a custom made power function found in math.h*/
 
 double myPower(double num, int pow){
     double powerResult = 1;
@@ -11,8 +12,8 @@ double myPower(double num, int pow){
 #include <stdio.h>
 
 int main(){
-    double n =5;
-    int p= 3;
-    printf("n to the power of p = %f \n", myPower(n,p));
+    double n=5;
+    int p=3;
+    printf("%g to the power of %d = %g \n", n, p, myPower(n,p));
     return 0;
 }
