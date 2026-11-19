@@ -1,3 +1,6 @@
+/*Author C. Knoblauch, 11/18/2026.
+This header file declares functions used in conjunction with an array-based queue.*/
+
 #ifndef QUEUE_H
 #define QUEUE_H
 
