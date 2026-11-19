@@ -1,3 +1,6 @@
+/*Author C. Knoblauch, 11/18/2026.
+This program establishes functions related to array based queue, is called in a header file*/
+
 #include "queue.h"
 
 static int front_idx = 0;
