@@ -22,7 +22,7 @@ int front(void){
     if(is_empty())
         return -1;
     else
-        return queue[front()];
+        return queue[front_idx];
 }
 
 void reset(void){
@@ -39,5 +39,5 @@ int dequeue(void){
     if(is_empty())
         return -1;
     else
-        return queue[front_idx ++]
+        return queue[front_idx ++];
 }

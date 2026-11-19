@@ -7,7 +7,7 @@
             "args": [
                 "-NoProfile",
                 "-Command",
-                "Get-Process -Name '${fileBasenameNoExtension}' -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue; exit 0"
+                "Get-Process -Name 'ex2' -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue; exit 0"
             ],
             "problemMatcher": []
         },
@@ -18,9 +18,10 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${fileDirname}\\ex2.c",
+                "${fileDirname}\\queue.c",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\ex2.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
